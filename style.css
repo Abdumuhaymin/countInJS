@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+button:hover {
+    border: 2px solid blueviolet;
+    background-color: inherit;
+    color: blueviolet;
+}
+
+.content__box {
+    margin-bottom: 50px;
+}
+
+.button__box {
+    text-align: center;
+    background: inherit;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+}
+
+.relative {
+    position: relative;
+}
+
+.btn {
+    color: #fff;
+    padding: 25px;
+}
+
+
+
+.storage {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000000a4;
+    inset: 0;
+
+}
+
+.active {
+    display: block;
+}
+
+.storage__modal {
+    width: 400px;
+    height: inherit;
+    height: inherit;
+    background-color: #fff;
+    overflow-y: scroll;
+    scroll-snap-type: proximity;
+}
+
+#close {
+    padding: 20px;
+    display: inline-block;
+}
+
+
+
+
+
+.storage__item {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.storage__title {
+    font-size: 25px;
+}
+
+.storage__header {
+    width: inherit;
+    height: auto;
+    position: fixed;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.storage__list {
+    margin-top: 65px;
+}
+
+.tnb {
+    border: 2px solid blueviolet;
+    background-color: inherit;
+    color: blueviolet;
+}
+
+.total,
+.count {
+    background: #fff;
+    display: inline-block;
+    border: 3px solid red;
+    padding: 5px;
+}
