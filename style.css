@@ -29,7 +29,8 @@ button:hover {
 }
 
 .content__box {
-    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
 .button__box {
@@ -81,7 +82,12 @@ button:hover {
 }
 
 
-
+.open {
+    position: fixed;
+    left: 10px;
+    top: 5px;
+    padding: 10px;
+}
 
 
 .storage__item {

@@ -9,7 +9,7 @@ let allProduct = document.querySelector(".total");
 
 const getStData = () => {
   const res = JSON.parse(localStorage.getItem("product"));
-
+  console.log(res);
   return res;
 };
 
